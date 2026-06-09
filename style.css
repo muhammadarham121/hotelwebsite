@@ -61,7 +61,7 @@ nav a:hover{
 
 .hero{
     height:100vh;
-    background:url("assets/header.jpg") center/cover;
+    background:url("header.jpg") center/cover;
 }
 
 .overlay{
