@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stay Elite Hotel</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+    <div class="logo">STAY ELITE</div>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#rooms">Rooms</a></li>
+            <li><a href="#booking">Booking</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <a href="#booking" class="btn">Book Now</a>
+</header>
+
+<section id="home" class="hero">
+    <div class="overlay">
+        <h3>WELCOME TO</h3>
+        <h1>STAY ELITE HOTEL</h1>
+        <p>Luxury Rooms • Premium Services • Unforgettable Experience</p>
+        <a href="#rooms" class="hero-btn">Explore Rooms</a>
+    </div>
+</section>
+
+<section id="rooms" class="section">
+    <h2>Our Rooms</h2>
+
+    <div class="room-grid">
+
+        <div class="room-card hidden">
+            <img src="assets/room1.jpg" alt="">
+            <h3>Deluxe Room</h3>
+            <p>PKR 5,000 / Night</p>
+            <button>Book Now</button>
+        </div>
+
+        <div class="room-card hidden">
+            <img src="assets/room2.jpg" alt="">
+            <h3>Premium Room</h3>
+            <p>PKR 10,000 / Night</p>
+            <button>Book Now</button>
+        </div>
+
+        <div class="room-card hidden">
+            <img src="assets/room3.jpg" alt="">
+            <h3>Standard Room</h3>
+            <p>PKR 3,000 / Night</p>
+            <button>Book Now</button>
+        </div>
+
+    </div>
+</section>
+
+<section id="booking" class="section">
+    <h2>Book Your Stay</h2>
+
+    <form id="bookingForm">
+
+        <input type="date" id="checkin" required>
+
+        <input type="date" id="checkout" required>
+
+        <select>
+            <option>Standard Room</option>
+            <option>Deluxe Room</option>
+            <option>Premium Room</option>
+        </select>
+
+        <button type="submit">Confirm Booking</button>
+
+    </form>
+</section>
+
+<section id="contact" class="section">
+    <h2>Contact Us</h2>
+
+    <p>📞 0314-3312074</p>
+    <p>✉ info@hotelstayelite.com</p>
+    
+</section>
+
+<footer>
+    <h3>Stay Elite Hotel</h3>
+    <p>Luxury • Comfort • Hospitality</p>
+    <p>copyright@Arhamshaikh</p>
+</footer>
+
+<div id="popup">
+    Booking Confirmed Successfully ✓
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
